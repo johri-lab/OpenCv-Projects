@@ -1,5 +1,5 @@
 Identifying and Counting objects using OpenCv
-==
+--
 
 To accomplish this, we leveraged contour approximation, the process of reducing the number of points on a curve to form a closed loop and draw the loops found. OpenCv provides two functions [cv2.findContours()](https://docs.opencv.org/3.1.0/d4/d73/tutorial_py_contours_begin.html) and [cv2.drawContours()](https://docs.opencv.org/3.1.0/d4/d73/tutorial_py_contours_begin.html) to identify closed loops in an image and to draw the loops respectively.
 
@@ -26,7 +26,7 @@ In order to apply this on different images one needs to play with these values o
 
 
 Running
-==
+--
 
 The prerequisite is that you need to have the OpenCV library installed. Refer to some tutorials on how to do that.
 To run the program open terminal and change the current working directory to the one which contains the project and run the following command:
@@ -77,7 +77,7 @@ These are the final contoured images in the two cases:
 
 
 Result
-==
+--
 Terminal results of final calculated number of identified shapes in the images:
 
 
