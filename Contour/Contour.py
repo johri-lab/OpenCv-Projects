@@ -27,7 +27,6 @@ print "There are %d shapes in the image"%len(contours)
 #draw all contours 
 for i in contours: 
 	cv2.drawContours(img,[i],-1,(0,0,255),3)
-cv2.imwrite("Desktop/Contour/ShapeContoured.jpg",img)
 
 #display conoured image
 cv2.imshow("Contoured Image",img)
