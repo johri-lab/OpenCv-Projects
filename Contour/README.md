@@ -30,8 +30,8 @@ In order to apply this on different images one needs to play with these values o
 
 The prerequisite is that you need to have the OpenCV library installed. Refer to some tutorials on how to do that.
 To run the program open terminal and change the current working directory to the one which contains the project and run the following command:
-```
-python Contour.py -i Desktop/images/shapes.jpg>
+```shell
+python Contour.py -i Desktop/images/shapes.jpg
 ```
 
 Please checkout the example below to know properly.
@@ -58,7 +58,7 @@ The images after the blur and threshold filter:
 
 ## 2
 For this image the blur filter is removed and parameter values for threshold function are altered as follows:
-```
+```shell
 ret, thresh = cv2.threshold(gray,33,255,cv2.THRESH_BINARY)
 ```
 ![thresh1](https://user-images.githubusercontent.com/30645315/40272691-3057400a-5bcf-11e8-9cb3-7b77c0030aeb.jpg)
