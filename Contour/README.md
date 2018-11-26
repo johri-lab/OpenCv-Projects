@@ -20,7 +20,6 @@ Note: Prior to applying thresholding operation, it is necessary to grayscale the
 
 **Note:**
 *The [cv2.GaussianBlur()](https://docs.opencv.org/3.1.0/d4/d13/tutorial_py_filtering.html) function give the parameters for smoothening the image and reducing noise in the image. Similarly, [cv2.threshold()](https://docs.opencv.org/3.4/d7/d4d/tutorial_py_thresholding.html) function provides parameters to threshold the image in different ways.*
-
 *In order to apply this on different images one needs to play with these values of the parameters of the functions. Please click on the functions to know more about the parameters and use of these functions.*
 
 
