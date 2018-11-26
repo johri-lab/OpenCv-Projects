@@ -17,7 +17,7 @@ methods of OpenCV based on calculations made for the frequencies of all the pixe
 
 Run the following code:
 ```shell
-python histofin.py
+python histogram.py
 ```
 ## Process
 ---
