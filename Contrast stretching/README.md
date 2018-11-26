@@ -21,6 +21,8 @@ python contraststretch.py
 ## Process
 ---
 
+The algorithm, works pixel by pixel changing intensities of every pixel in order to get a more enhanced image. It works as shown in the below figures.
+
 The original input image:
 
 ![image srkvsz](https://user-images.githubusercontent.com/30645315/49012533-b004d180-f19f-11e8-83d2-3e15f5db71db.png)
