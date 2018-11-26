@@ -8,7 +8,7 @@
 Contrast stretching (often called normalization) is a simple image enhancement technique that
 attempts to improve the contrast in an image by stretching the range of intensity values it
 contains to span a desired range of values, e.g. the full range of pixel values that the image
-type concerned allows
+type concerned allows.
 
 ## Running
 ---
