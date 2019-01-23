@@ -21,3 +21,7 @@ To Run the main code, run:
 ```shell
 python eyeTracking.py
 ```
+
+## Working
+
+![Eye Tracking](https://github.com/johri002/OpenCv-Projects/blob/master/Gaze%20detection/GazeDetection.gif?raw=true)
